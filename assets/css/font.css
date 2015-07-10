@@ -1,0 +1,15 @@
+.headline, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Futura Bold', sans-serif;
+}
+
+.primary{
+	font-family: 'Futura Book', sans-serif;
+}
+
+.secondary {
+	font-family: 'Futura Light', sans-serif;
+}
+
+.text {
+	font-family: 'Georgia Regular', 'Georgia', 'Times', 'Times New Roman', serif;
+}

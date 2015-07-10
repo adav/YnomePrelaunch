@@ -1,0 +1,157 @@
+/* Global Styles */
+
+html, body {
+	height: 100%;
+	font-size: 14px;
+	font-family: 'Georgia Regular', 'Georgia', 'Times', 'Times New Roman', serif;
+	color: #221f20;
+	background-color: #feffff;
+	cursor: default;
+}
+
+body {
+    padding-top: 85px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Futura Bold', sans-serif;
+	text-transform: uppercase;
+	color: #221f20;
+}
+
+h1 {
+	font-size: 32px;
+	margin-bottom: 16px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+h3 {
+	font-size: 19px;
+	margin-bottom: 9px;
+}
+
+h4 {
+	font-size: 16px;
+	margin-bottom: 7px;
+}
+
+h5 {
+	font-size: 13px;
+	margin-bottom: 6px;
+}
+
+h6 {
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+p {
+	font-family: 'Georgia Regular', 'Georgia', 'Times', 'Times New Roman', serif;
+	color: #221f20;
+}
+
+a:link, a:visited {
+	color: #497696;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #243b4b;
+	text-decoration: none;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+a:active {
+	text-decoration: none;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+/* Buttons */
+/* Primary Buttons */
+
+.button, .button:link, .button:visited {
+	font-family: 'Futura Book', sans-serif;
+    color: #243b4b;
+	background-color: #f0ea6f;
+	border: 3px solid transparent;
+	border-bottom: 3px solid #dfda68;
+	padding: 5px 10px 2px 10px;
+	text-transform: uppercase;
+	outline: 3px solid transparent;
+}
+
+.button:hover, .button:focus {
+	background-color: #dfda68;
+	border: 3px solid transparent;
+	outline: 3px solid transparent;
+}
+
+.button:active {
+	background-color: #dfda68;
+	border: 3px solid #f4eee9;
+	outline: 3px solid #dfda68;
+}
+
+/*
+.border {
+	background: none repeat scroll 0 0 #999999;
+	display: block;
+	height: 2px;
+	margin: 0 auto;
+	width: 100px;
+	margin-bottom:40px;
+}
+
+a {
+	text-decoration: none;
+	-webkit-transition: background-color .3s ease, border .3s ease, color .3s ease, opacity .3s ease-in-out, outline .3s ease;
+	   -moz-transition: background-color .3s ease, border .3s ease, color .3s ease, opacity .3s ease-in-out, outline .3s ease;
+		-ms-transition: background-color .3s ease, border .3s ease, color .3s ease, opacity .3s ease-in-out, outline .3s ease;
+		 -o-transition: background-color .3s ease, border .3s ease, color .3s ease, opacity .3s ease-in-out, outline .3s ease;
+			transition: background-color .3s ease, border .3s ease, color .3s ease, opacity .3s ease-in-out, outline .3s ease;
+}
+
+a, a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #f1c40f;
+	text-decoration: none;
+}
+
+em {
+	color: #f1c40f;
+	font-style: normal;
+}
+
+.yPanel {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.grey {
+	background-color: #f5f5f5;
+}
+
+.white {
+	background-color: #ffffff;
+}
+
+.back-button {
+	margin-top: 50px;
+}
+*/
+
+/* Rating */
+
+.rating-disabled {
+	cursor: default;
+}
